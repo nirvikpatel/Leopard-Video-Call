@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449753166862",
+    "project_id": "leopard-video-call",
+    "storage_bucket": "leopard-video-call.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449753166862:android:cb45cb268b072e8b53785f",
+        "android_client_info": {
+          "package_name": "com.nirvik.leopardvideocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449753166862-crunc1df8apvr78p5lu19bqg2mjohu7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSkHPU3H-HcDBvL14ZLrc0-7EH1VlZUAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449753166862-crunc1df8apvr78p5lu19bqg2mjohu7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

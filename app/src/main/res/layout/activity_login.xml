@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@drawable/back2"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="5sp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30sp"
+        app:srcCompat="@drawable/leopard"
+        tools:ignore="VectorDrawableCompat" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginRight="10sp"
+        android:background="#00FFFFFF"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10sp">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_user_1_"
+                android:drawablePadding="5sp"
+                android:hint="Email Id"
+                android:paddingLeft="5sp"
+                android:textColor="#000000"
+                android:textColorHint="#CAB9B9"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/ic_padlock"
+                android:drawablePadding="5sp"
+                android:ems="10"
+                android:hint="  password"
+                android:inputType="textPassword"
+                android:paddingLeft="5sp"
+                android:textColor="#000000"
+                android:textColorHint="#CAB9B9"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="50sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginRight="20sp"
+                android:text="Login"
+                app:backgroundTint="#448AFF"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginRight="20sp"
+                android:text="Create New Account"
+                app:backgroundTint="#448AFF"
+                app:cornerRadius="5dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
